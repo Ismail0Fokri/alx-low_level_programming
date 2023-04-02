@@ -1,18 +1,18 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 /**
- * main - Prints the last digit of a randomly generated number
- * and whether it is greater than 5, less than 6, or 0.
+ * main - Prints numbers from 0 to 9.
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
+	int n;
 
-    for (int x=0; x <= 10; x++)
-    {
-        printf("%d", x);
-    }
-
+	for (n = 0; n < 10; n++)
+	{
+		printf("%d", n);
+	}
+	putchar('\n');
+	return (0);
 }
