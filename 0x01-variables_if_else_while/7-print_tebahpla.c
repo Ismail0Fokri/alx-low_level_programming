@@ -7,13 +7,7 @@
  */
 int main(void)
 {
-	int i;
-
-	for (i = 58; i > 48; i--)
-	{
-		putchar(i);
-	}
-	putchar('\n');
-	return (0);
+char p;
+for (p = 'z'; p >= 'a'; p--)
+putchar(p);
 }
-
