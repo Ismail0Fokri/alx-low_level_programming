@@ -7,8 +7,17 @@
  */
 int main(void)
 {
-	for (p = 'a'; p <= 'z'; p++)
-    	putchar(p);
+<<<<<<< HEAD
+=======
+	int i;
+>>>>>>> 24259fe3fec147115f5438437485ae6f21161dc2
 
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+	}
+	putchar('\n');
 	return (0);
 }
+
+
